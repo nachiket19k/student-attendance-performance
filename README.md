@@ -6,7 +6,7 @@ A production-ready MERN web application for managing students, attendance, marks
 
 - **Frontend**: React 18, Vite, React Router v6, Material UI, Axios, React Chart.js 2
 - **Backend**: Node.js, Express.js, MongoDB, Mongoose, JWT, bcryptjs, dotenv, CORS
-- **Database**: MongoDB Atlas (recommended)
+- **Database**: MongoDB
 
 ## Project Structure
 
@@ -35,7 +35,7 @@ DBMSPROJECT1/
 
 ## Backend Setup
 
-1. Navigate to backend folder and install dependencies:
+1. Open backend folder with command prompt and install dependencies:
 
    ```bash
    cd backend
@@ -60,20 +60,13 @@ DBMSPROJECT1/
 
 ## Frontend Setup
 
-1. In a separate terminal, navigate to the frontend folder and install dependencies:
+1. In a separate terminal,open frontend folder with command prompt and install dependencies:
 
    ```bash
-   cd frontend
    npm install
    ```
 
-2. (Optional) Create a `.env` file to override API base URL:
-
-   ```bash
-   echo "VITE_API_BASE_URL=http://localhost:5000/api" > .env
-   ```
-
-3. Start the frontend dev server:
+2. Start the frontend dev server:
 
    ```bash
    npm run dev
